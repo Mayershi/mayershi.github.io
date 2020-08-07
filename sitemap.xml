@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.mayershi.me/2020/08/06/gcp-install-gfw-v2ray-server/</loc>
+    
+    <lastmod>2020-08-06</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.mayershi.me/repository/index.html</loc>
     
     <lastmod>2020-08-06</lastmod>
@@ -144,7 +151,7 @@
 
   <url>
     <loc>https://blog.mayershi.me/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -152,70 +159,70 @@
   
   <url>
     <loc>https://blog.mayershi.me/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/tags/tools/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/tags/cmd/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/tags/gitlab/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/tags/gitops/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/tags/helm/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/tags/kubernetes/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/tags/zoom/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/tags/story/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -224,56 +231,56 @@
   
   <url>
     <loc>https://blog.mayershi.me/categories/Coding/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/categories/Ops/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/categories/DevOps/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/categories/GitOps/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/categories/ROS/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/categories/Container-Cloud/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/categories/Tools/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.mayershi.me/categories/Story/</loc>
-    <lastmod>2020-08-06</lastmod>
+    <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
