@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.mayershi.me/"/>
-  <updated>2020-09-16T12:25:23.000Z</updated>
+  <updated>2020-09-20T12:25:23.000Z</updated>
   <id>https://blog.mayershi.me/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何快速初始化 MacOS 开发环境</title>
+    <link href="https://blog.mayershi.me/2020/09/20/macos-init-env/"/>
+    <id>https://blog.mayershi.me/2020/09/20/macos-init-env/</id>
+    <published>2020-09-20T12:25:23.000Z</published>
+    <updated>2020-09-20T12:25:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>很多开发者比较喜欢用MacBook作为生产力工具，对于新电脑可以快速配置下开发环境。</p><a id="more"></a><p><strong>打开以及关闭隐藏目录</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">shift</span> + <span class="built_in">command</span> + .</span><br></pre></td></tr></table></figure><p><strong>安装开发工具</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xcode-select --install</span><br></pre></td></tr></table></figure><p><strong>brew 工具使用</strong></p><ol><li>安装brew工具</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/bin/bash -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)</span>&quot;</span> </span><br></pre></td></tr></table></figure><ol start="2"><li>brew 基本命令</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">brew -h <span class="comment">#查找命令</span></span><br><span class="line">brew search <span class="comment">#搜索软件</span></span><br><span class="line">brew install <span class="comment">#安装软件</span></span><br><span class="line">brew uninstall <span class="comment">#卸载软件</span></span><br><span class="line">brew update <span class="comment">#更新所有软件</span></span><br><span class="line">brew upgrade <span class="comment">#更新具体软件</span></span><br><span class="line">brew list <span class="comment">#显示安装软件</span></span><br><span class="line">brew info / home<span class="comment"># 查看软件信息：（home是打开软件的官网）</span></span><br><span class="line">brew outdated <span class="comment">#查看哪些软件需要更新</span></span><br></pre></td></tr></table></figure><p><strong>oh my zsh 安装以及配置插件</strong></p><ol><li>安装oh my zsh</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure><ol start="2"><li>安装autojump插件</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install autojump</span><br></pre></td></tr></table></figure><ol start="3"><li>安装zsh-autosuggestion插件</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/zsh-users/zsh-autosuggestions <span class="variable">$&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;</span>/plugins/zsh-autosuggestions </span><br></pre></td></tr></table></figure><ol start="4"><li>安装zsh-syntax-highlighting插件</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/zsh-users/zsh-syntax-highlighting.git <span class="variable">$&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;</span>/plugins/zsh-syntax-highlighting</span><br></pre></td></tr></table></figure><ol start="5"><li>配置以及激活插件</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.zshrc <span class="comment"># 添加选项</span></span><br><span class="line">plugins=(git autojump zsh-autosuggestions zsh-syntax-highlighting)  <span class="comment"># 重启控制台</span></span><br></pre></td></tr></table></figure><p><strong>oh my zsh 配置 powerlevel10k 主题</strong></p><ol><li>安装 powerlevel10k</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> --depth=1 https://gitee.com/romkatv/powerlevel10k.git <span class="variable">$&#123;ZSH_CUSTOM:-<span class="variable">$HOME</span>/.oh-my-zsh/custom&#125;</span>/themes/powerlevel10k</span><br><span class="line"></span><br><span class="line"><span class="comment"># 配置方式 Set ZSH_THEME=&quot;powerlevel10k/powerlevel10k&quot; in ~/.zshrc.</span></span><br></pre></td></tr></table></figure><ol start="2"><li>配置powerlevel10k</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">p10k configure <span class="comment"># 通过交互配置主题</span></span><br></pre></td></tr></table></figure><p><strong>MacOS Hight Sierra清除DNS缓存</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;</span><br></pre></td></tr></table></figure><p><strong>安装常用软件</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">brew cask install v2rayu</span><br><span class="line">brew cask install shadowsocksx-ng</span><br><span class="line">brew install redis</span><br><span class="line">brew install helm</span><br><span class="line">brew install kubernetes-cli</span><br><span class="line">brew install mysql</span><br><span class="line">brew cask install visual-studio-code</span><br><span class="line">brew cask install typora</span><br><span class="line">brew cask install iterm2</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;很多开发者比较喜欢用MacBook作为生产力工具，对于新电脑可以快速配置下开发环境。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://blog.mayershi.me/categories/Tools/"/>
+    
+    
+      <category term="tools" scheme="https://blog.mayershi.me/tags/tools/"/>
+    
+  </entry>
   
   <entry>
     <title>VMware Workstation Pro 16 内置容器工具vctl彻底替换docker（内含批量激活密钥）</title>
